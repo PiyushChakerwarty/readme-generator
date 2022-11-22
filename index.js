@@ -27,6 +27,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'features',
+        message: 'List some important features of your project',
+    },
+    {
+        type: 'input',
         name: 'howToContribute',
         message: 'Enter the contribution guidelines',
     },

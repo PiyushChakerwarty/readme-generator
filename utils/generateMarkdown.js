@@ -61,6 +61,9 @@ function generateMarkdown(data) {
   Copyright (c) ${data.gitHubUser}. All rights reserved.
   ${renderLicenseSection(data.licenseType)} 
   
+  ## Features
+  ${data.features}
+
   ## How to Contribute
   ${data.howToContribute}
 
